@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Section 1 */
+.Section1 {
+    background-color: #1F2937;
+    color: white;
+
+}
+
+/* Header */
+.Header {
+    font-size: 24px;
+}
+
+/* Subheader */
+.Subheader {
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+.Subheader-item {
+    width: auto;
+}
+
+/* S1 */
+.S1 {
+    font-size: 48px;
+
+}
