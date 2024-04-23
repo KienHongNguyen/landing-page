@@ -1,3 +1,4 @@
+/* Body */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -10,7 +11,7 @@ body {
     color: white;
 }
 
-/* Header */
+/* Header container */
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@ body {
     gap: 20px;
 }
 
-/* S1 */
+/* Hero container */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,15 @@ body {
     font-size: 24px;
 }
 
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+
 /* Hero image */
 .hero-image {
     background-color: grey;
@@ -73,11 +83,33 @@ body {
     text-align: center;
 }
 
-.hero-button {
-    background-color: #3882F6;
-    color: white;
-    font-size: 18px;
-    width: 120px;
-    height: 40px;
-    border-radius: 8px;
+/* Section 2 */
+.Section2 {
+    background-color: white;
+    height: 400px;
+    width: auto;
+    border: 4px solid;
+}
+
+/* Information header */
+.info-head {
+    display: flex;
+    justify-content: center;
+    border: 4px solid;
+    padding: 5px;
+
+}
+
+.info-image {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: horizontal;
+
+    border: 4px solid;
+    height: 300px;
+}
+
+.info-image-item {
+    width: 60px;
+    height: 60px;
 }
