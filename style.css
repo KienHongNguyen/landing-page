@@ -5,6 +5,7 @@ body {
     font-style: normal;
 }
 
+
 /* Section 1 */
 .Section1 {
     background-color: #1F2937;
@@ -34,14 +35,15 @@ body {
     gap: 20px;
 }
 
+
 /* Hero container */
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 /* Hero text */
@@ -50,8 +52,8 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 200px;
-
-    height: 400px;
+    
+    height: 250px;
     width: 600px;
 }
 
@@ -59,10 +61,12 @@ body {
     font-size: 48px;
     display: flex;
     justify-content: flex-start;
+    margin-top: -5px;
+    margin-bottom: -10px;
 }
 
 .hero-text p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .hero-button {
@@ -80,8 +84,12 @@ body {
     margin-right: 200px;
     height: 250px;
     width: 500px;
-    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* Section 2 */
 .Section2 {
@@ -98,6 +106,7 @@ body {
     padding: 10px;
 }
 
+/* Information image */
 .info-image {
     display: flex;
     justify-content: center;
@@ -107,6 +116,7 @@ body {
     height: 300px;
 }
 
+/* Information box */
 .box {
     outline: 4px solid #3882F6;
     outline-offset: -4px;
@@ -116,5 +126,84 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: -10px;
+}
 
+
+/* Section 3 */
+.Section3 {
+    background-color: #E5E7EB;
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* Quote */
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Author */
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 500px;
+}
+
+
+/* Section 4 */
+.Section4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.S4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #3882F6;
+    margin-top: 100px;
+    height: 150px;
+    width: 1000px;
+    color: white;
+    border-radius: 10px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+
+}
+
+.S4 h2 {
+    font-size: 24px;
+    margin-top: 30spx;
+}
+
+.S4 p{
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.S4 button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    margin-right: 100px;
+    
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
